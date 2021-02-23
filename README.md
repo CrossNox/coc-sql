@@ -1,10 +1,10 @@
-# coc-sql
+# coc-sql-plus-jinja
 
-SQL extension for coc.nvim
+SQL+jinja extension for coc.nvim
 
 ## Features
 
-- Format by [sql-formatter](https://github.com/zeroturnaround/sql-formatter)
+- Format by [sql-formatter](https://github.com/junaidnasir/sql-formatter-plus)
 - Lint by [node-sql-parser](https://github.com/taozhi8833998/node-sql-parser)
 
 ## Install
