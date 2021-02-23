@@ -1,5 +1,5 @@
 import { DocumentFormattingEditProvider, DocumentRangeFormattingEditProvider, Range, TextDocument, TextEdit, Uri, window, workspace } from 'coc.nvim';
-import { format } from 'sql-formatter';
+import { format } from 'sql-formatter-plus-jinja';
 
 export async function doFormat(document: TextDocument, range?: Range): Promise<string> {
   const options = workspace.getConfiguration('sql').get('formatOptions', {});
